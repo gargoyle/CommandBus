@@ -3,7 +3,7 @@
 namespace Pmc\CommandBus\Exception;
 
 /**
- * @author Paul Court <emails@paulcourt.co.uk>
+ * @author Gargoyle <g@rgoyle.com>
  */
 class HandlerNotFound extends \DomainException
 {

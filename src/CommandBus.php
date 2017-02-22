@@ -3,7 +3,7 @@
 namespace Pmc\CommandBus;
 
 /**
- * @author Paul Court <paul@pmcnetworks.co.uk>
+ * @author Gargoyle <g@rgoyle.com>
  */
 class CommandBus
 {

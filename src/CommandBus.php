@@ -18,7 +18,7 @@ class CommandBus
         $this->handlers = [];
     }
     
-    public function dispatch(Command $cmd)
+    public function dispatch($cmd)
     {
         $commandClassName = get_class($cmd);
         if (!isset($this->handlers[$commandClassName])) {

@@ -8,5 +8,5 @@ namespace Pmc\CommandBus;
 interface Handler
 {
     public function getSupportedCommands(): array;
-    public function handleCommand(Command $command): void;
+    public function handleCommand($command): void;
 }
